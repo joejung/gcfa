@@ -1,8 +1,8 @@
-### Rewritten Prompt
-
 ---
 
-# GCF Agent (GCFA) Streamlit Application
+# Project Name: GCF Agent (GCFA)
+
+## Streamlit Application
 
 Create a Streamlit application named "GCFA" that provides two main functionalities for managing test case (TC) data: registering new test reports and viewing existing ones.
 
@@ -20,7 +20,7 @@ The application must include a section for users to register a new test report.
 * **User Confirmation:** Display the parsed data in a Streamlit DataFrame table, allowing the user to review and confirm its accuracy before proceeding.
 * **Data Enrichment:** After confirmation, automatically add a new column named 'MTK action item' to the DataFrame.
 * **User-Modifiable Fields:** The application must allow the user to directly modify the contents of both the 'customer action item' and 'MTK action item' columns within the table.
-* **Data Persistence:** The final, confirmed, and potentially modified table must be saved as a JSON file. The filename should follow a `yyyymmdd_hhmmss` format to ensure uniqueness and proper sorting.
+* **Data Persistence:** The final, confirmed, and potentially modified table must be saved to a single JSON file (e.g., `records.json`). Each record should include its date field and a `project name` field (e.g., TabS11, TabS10), which will be used for identification and retrieval.
 
 ---
 
@@ -28,6 +28,6 @@ The application must include a section for users to register a new test report.
 
 The application must also provide a way to access previously saved reports.
 
-* **Default View:** Upon launch, the application should automatically display the most recently saved test report.
+* **Default View:** Upon launch, the application should automatically display the most recently saved test report from the single JSON file.
 * **Record Selection:** Provide a date selector UI element that allows the user to browse and select a specific date.
-* **Dynamic Display:** When a user selects a date, the application must load and display the corresponding test report from the stored JSON files.
+* **Dynamic Display:** When a user selects a date, the application must load and display the corresponding test report from the single JSON file.

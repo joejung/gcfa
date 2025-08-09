@@ -5,5 +5,6 @@
 
 test/
 bin/
+records.json
 records/
 !records/.gitkeep
