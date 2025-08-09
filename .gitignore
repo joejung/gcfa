@@ -3,5 +3,7 @@
 *.zip
 *.html
 
-test
-bin
+test/
+bin/
+records/
+!records/.gitkeep
