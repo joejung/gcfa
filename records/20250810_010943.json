@@ -7,7 +7,7 @@
       "Band": "n78",
       "Result": "Pass",
       "customer action item": "Check log for details",
-      "MTK action item": "sdfsdf"
+      "MTK action item": "aaaa"
     },
     {
       "3GPP spec": "38.521-1",
@@ -15,7 +15,7 @@
       "Band": "n41",
       "Result": "Fail",
       "customer action item": "Request retest",
-      "MTK action item": "dfdf"
+      "MTK action item": "bbbbdfd"
     },
     {
       "3GPP spec": "38.521-3",
@@ -23,7 +23,7 @@
       "Band": "n1",
       "Result": "Pass",
       "customer action item": "No action needed",
-      "MTK action item": "dfasdfa"
+      "MTK action item": "ccccc"
     }
   ]
 }
